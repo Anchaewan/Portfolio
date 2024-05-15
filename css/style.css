@@ -2,6 +2,9 @@
   --pacifico: "Pacifico", cursive;
   --Emerald: #16c79e;
   --black: #000000;
+  --white: #ffffff;
+  --gray99: #999999;
+  --yellow: #f0ff35;
 }
 
 .pacifico-regular {
@@ -13,6 +16,7 @@
 header {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
+  padding: 0 2vw;
 }
 
 nav {
@@ -36,7 +40,16 @@ nav {
   justify-content: center;
   font-family: var(--pacifico);
   font-size: 50px;
-  background: linear-gradient(to left, var(--black), var(--Emerald));
+  background: linear-gradient(
+    to right,
+    var(--white),
+    var(--yellow),
+    var(--yellow),
+    var(--Emerald),
+    var(--Emerald),
+    var(--Emerald),
+    var(--black)
+  );
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -50,9 +63,24 @@ nav {
     &:hover {
       color: var(--Emerald);
     }
-    padding-right: 30px;
     margin-left: 30px;
     width: 30px;
     height: 30px;
   }
+}
+
+video {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+  padding-top: 5vw;
+  opacity: 0.8;
+}
+
+.main_footer {
+  width: 40px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 6vw;
+  opacity: 0.5;
 }
