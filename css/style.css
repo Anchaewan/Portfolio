@@ -40,6 +40,7 @@ nav {
   justify-content: center;
   font-family: var(--pacifico);
   font-size: 50px;
+
   background: linear-gradient(
     to right,
     var(--white),
@@ -73,14 +74,50 @@ video {
   width: 60%;
   margin: 0 auto;
   display: block;
-  padding-top: 5vw;
+  padding-top: 4vw;
   opacity: 0.8;
 }
 
-.main_footer {
+.ico_down {
   width: 40px;
   margin: 0 auto;
   display: block;
-  padding-top: 6vw;
-  opacity: 0.5;
+  margin-top: 5vw;
+}
+
+/* main */
+
+.home_main {
+  padding: 8vw 4vw 4vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 15vw;
+}
+
+.content {
+  margin: 0 auto;
+  width: 45vw;
+  height: 45vw;
+  border: 1px solid gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* footer */
+
+.home_footer {
+  width: 100%;
+  height: 15vw;
+  margin-top: 5vw;
+  text-align: center;
+  color: var(--gray99);
+
+  > lord-icon {
+    margin: 0 auto;
+  }
+}
+
+.powered {
+  margin-top: 30px;
 }
