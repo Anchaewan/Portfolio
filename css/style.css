@@ -17,7 +17,7 @@ body {
 header {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  padding: 0 2vw;
+  padding: 1vw 2vw;
 }
 
 nav {
@@ -30,17 +30,13 @@ nav {
   gap: 30px;
 }
 
-/* .nav_ico_text {
-  font-size: 8px;
-  text-align: center;
-} */
-
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--pacifico);
-  font-size: 50px;
+  font-family: var(--Montserrat);
+  font-weight: 100;
+  font-size: 40px;
 
   background: linear-gradient(
     to right,
@@ -71,11 +67,11 @@ nav {
   }
 }
 
-video {
+.main_video {
   width: 60%;
   margin: 0 auto;
   display: block;
-  padding-top: 4vw;
+  padding-top: 5vw;
   opacity: 0.8;
 }
 
@@ -110,9 +106,9 @@ video {
 .home_footer {
   width: 100%;
   height: 15vw;
-  margin-top: 5vw;
+  margin-top: 9vw;
   text-align: center;
-  color: var(--gray99);
+  color: var(--black);
 
   > lord-icon {
     margin: 0 auto;
