@@ -1,16 +1,17 @@
 :root {
   --pacifico: "Pacifico", cursive;
+  --archivo: "Archivo Black", sans-serif;
   --Emerald: #16c79e;
   --black: #000000;
   --white: #ffffff;
   --gray99: #999999;
   --yellow: #f0ff35;
+  --Montserrat: "Montserrat", sans-serif;
 }
 
-.pacifico-regular {
-  font-family: "Pacifico", cursive;
-  font-weight: 400;
-  font-style: normal;
+html,
+body {
+  scroll-behavior: smooth;
 }
 
 header {
@@ -65,8 +66,8 @@ nav {
       color: var(--Emerald);
     }
     margin-left: 30px;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
   }
 }
 
@@ -88,17 +89,17 @@ video {
 /* main */
 
 .home_main {
-  padding: 8vw 4vw 4vw;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-top: 15vw;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 10vw;
 }
 
 .content {
   margin: 0 auto;
-  width: 45vw;
-  height: 45vw;
-  border: 1px solid gold;
+  width: 24vw;
+  height: 24vw;
+  border: 1px solid var(--Emerald);
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,5 +120,7 @@ video {
 }
 
 .powered {
+  font-family: var(--Montserrat);
+  font-weight: 200;
   margin-top: 30px;
 }
