@@ -1,0 +1,20 @@
+:root {
+  --gothic_a1: "Gothic A1", sans-serif;
+  --Montserrat: "Montserrat", sans-serif;
+  --Emerald: #16c79e;
+  --black: #000000;
+  --white: #ffffff;
+  --gray99: #999999;
+  --yellow: #f0ff35;
+  --magenta: rgb(255, 0, 76);
+}
+
+.project3_ico {
+  position: absolute;
+  top: 5vh;
+  right: 2vw;
+}
+
+.gohome {
+  margin-right: 1vw;
+}
