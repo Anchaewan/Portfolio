@@ -18,3 +18,11 @@
 .gohome {
   margin-right: 1vw;
 }
+
+.project4_title {
+  margin: 2vh 0 0 2vw;
+  font-family: var(--Montserrat);
+  color: var(--Emerald);
+  font-weight: 700;
+  font-size: 5rem;
+}
