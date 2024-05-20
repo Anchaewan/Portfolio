@@ -83,8 +83,8 @@ body {
 .page2_info {
   margin: 1vh 0 0 5vw;
   font-family: var(--gothic_a1);
-  color: var(--gray99);
-  font-weight: 200;
+  color: #777;
+  font-weight: 500;
   font-size: 14px;
 }
 
@@ -118,6 +118,6 @@ body {
   margin-left: 2vw;
   font-family: var(--gothic_a1);
   font-weight: 500;
-  color: var(--gray99);
+  color: #777;
   font-size: 14px;
 }

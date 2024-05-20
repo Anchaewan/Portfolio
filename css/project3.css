@@ -9,6 +9,11 @@
   --magenta: rgb(255, 0, 76);
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 .project3_ico {
   position: absolute;
   top: 5vh;
@@ -36,8 +41,89 @@
   font-size: 0.8rem;
   font-family: var(--Montserrat);
   text-decoration: underline;
-  color: lightblue;
+  color: rgb(147, 208, 228);
   &:hover {
     color: #16c79e;
   }
+}
+
+.project3_main {
+  display: flex;
+  align-items: center;
+  margin-left: 5vw;
+  margin-top: 5vw;
+  > img {
+    width: 50vw;
+  }
+}
+
+.project3_depth {
+  margin-left: 2vw;
+}
+
+.depth_title {
+  font-family: var(--Montserrat);
+  color: var(--magenta);
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.depth_info {
+  font-family: var(--Montserrat);
+  color: #777;
+  font-size: 13px;
+  margin-top: 4vh;
+}
+
+.ico_down {
+  width: 40px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 6vw;
+}
+
+.project3_page2 {
+  margin: 12vh 0 0 4vw;
+}
+
+.page2_depth_wrap {
+  margin-left: 5vw;
+}
+
+.page2_title {
+  font-family: var(--Montserrat);
+  color: var(--Emerald);
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+.page2_depth_title {
+  margin-top: 4vh;
+  color: var(--magenta);
+  font-family: var(--Montserrat);
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.page2_depth_info {
+  font-family: var(--gothic_a1);
+  color: #777;
+  margin-top: 1vh;
+  margin-left: 1vw;
+}
+
+.page2_depth_img1 {
+  margin-left: 5vw;
+  margin-top: 3vh;
+  width: 50vw;
+}
+
+.page2_depth_img2 {
+  margin-left: 5vw;
+  margin-top: 3vh;
+  width: 30vw;
+}
+
+.page2_last {
+  margin-bottom: 5vh;
 }
