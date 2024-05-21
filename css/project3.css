@@ -24,27 +24,47 @@ body {
   margin-right: 1vw;
 }
 
-.kasina_header {
+.project3_header {
   margin-left: 5vw;
   margin-top: 2vw;
+  display: flex;
+  align-items: center;
 }
 
-.kasina_title {
+.project3_title {
   font-family: var(--Montserrat);
   color: var(--Emerald);
   font-weight: 700;
   font-size: 5rem;
 }
 
-.kasina_link {
-  margin-top: 3vh;
+.project3_address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3vw;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 100%;
+  background: var(--magenta);
+  &:hover {
+    background-color: var(--white);
+    border: 3px solid var(--Emerald);
+    .project3_address_text {
+      color: var(--Emerald);
+    }
+  }
+  > a {
+    text-decoration: none;
+  }
+}
+
+.project3_address_text {
+  color: var(--white);
+  text-align: center;
   font-size: 0.8rem;
   font-family: var(--Montserrat);
-  text-decoration: underline;
-  color: rgb(147, 208, 228);
-  &:hover {
-    color: #16c79e;
-  }
+  font-weight: 500;
 }
 
 .project3_main {
