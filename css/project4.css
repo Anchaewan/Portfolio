@@ -9,7 +9,7 @@
   --magenta: rgb(255, 0, 76);
 }
 
-.project3_ico {
+.project4_ico {
   position: absolute;
   top: 5vh;
   right: 2vw;
@@ -19,10 +19,39 @@
   margin-right: 1vw;
 }
 
+.project4_header {
+  margin-left: 5vw;
+  margin-top: 2vw;
+}
+
 .project4_title {
-  margin: 2vh 0 0 2vw;
   font-family: var(--Montserrat);
   color: var(--Emerald);
   font-weight: 700;
   font-size: 5rem;
+}
+
+.project4_link {
+  display: block;
+  margin-left: 1vw;
+  margin-top: 2vh;
+  font-size: 0.8rem;
+  font-family: var(--Montserrat);
+  text-decoration: underline;
+  color: rgb(147, 208, 228);
+  &:hover {
+    color: #16c79e;
+  }
+}
+
+.project4_preview {
+  display: grid;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  > img {
+    margin-top: 10vh;
+    width: 30vw;
+  }
 }

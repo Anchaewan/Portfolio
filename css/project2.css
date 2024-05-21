@@ -18,6 +18,9 @@ body {
   position: absolute;
   top: 5vh;
   right: 2vw;
+  > a {
+    text-decoration: none;
+  }
 }
 
 .gohome {
@@ -27,6 +30,8 @@ body {
 .project2_header {
   margin-left: 5vw;
   margin-top: 2vw;
+  display: flex;
+  align-items: center;
 }
 
 .project2_title {
@@ -37,26 +42,43 @@ body {
 }
 
 .project2_address {
-  margin-top: 3vh;
-  margin-bottom: 3vh;
-  font-size: 0.8rem;
-  font-family: var(--Montserrat);
-  text-decoration: underline;
-  color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3vw;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 100%;
+  background: var(--magenta);
   &:hover {
-    color: #16c79e;
+    background-color: var(--white);
+    border: 3px solid var(--magenta);
+    .project_address_text {
+      color: #16c79e;
+    }
+  }
+  > a {
+    text-decoration: none;
   }
 }
 
-.carousel-inner {
-  padding-top: 7vh;
-  margin: 0 auto;
+.project_address_text {
+  color: var(--white);
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: var(--Montserrat);
+  font-weight: 500;
+}
+
+.slide {
   width: 50vw;
+  margin: 0 auto;
+  padding-top: 7vh;
 }
 
 .ico_down {
-  width: 40px;
   margin: 0 auto;
+  width: 40px;
   display: block;
   margin-top: 3vw;
 }
