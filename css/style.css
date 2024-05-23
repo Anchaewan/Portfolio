@@ -22,12 +22,31 @@ header {
 
 nav {
   display: flex;
+  justify-content: center;
 }
 
-.nav_ico {
-  align-items: center;
+.lord-icon_box {
+  background: var(--black);
+  border-radius: 31px;
+  width: 81px;
+  height: 81px;
   display: flex;
-  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  > lord-icon {
+    background: var(--white);
+    border-radius: 15px;
+  }
+}
+
+.ico_title {
+  text-align: center;
+  margin-top: 1.5vh;
+  font-family: var(--Montserrat);
+  color: var(--gray99);
+  letter-spacing: 0.000001rem;
+  font-weight: 400;
+  font-size: 13px;
 }
 
 .logo {
@@ -53,7 +72,11 @@ nav {
   -webkit-text-fill-color: transparent;
 }
 
-.nav_info {
+.github {
+  width: 81px;
+}
+
+/* .nav_info {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -65,7 +88,7 @@ nav {
     width: 40px;
     height: 40px;
   }
-}
+} */
 
 .main_video {
   width: 60%;
@@ -85,31 +108,35 @@ nav {
 /* main */
 
 .home_main {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   margin: 10vw 5vw;
+  gap: 33px;
+  justify-content: center;
 }
 
 .content {
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 31px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #000;
+  height: 81px;
+  aspect-ratio: 1;
   > img {
     border-radius: 15px;
-    width: 20vw;
-    height: 20vw;
+    width: 50px;
   }
 }
 
 .content_title {
-  margin-top: 3vh;
+  margin-top: 1.5vh;
   text-align: center;
   font-family: var(--Montserrat);
-  color: var(--Emerald);
+  color: var(--gray99);
+  letter-spacing: 0.000001rem;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 13px;
 }
 
 /* footer */

@@ -22,6 +22,17 @@ body {
 
 .gohome {
   margin-right: 1vw;
+  &:hover {
+    background-color: #f0ff35;
+    border-radius: 100%;
+  }
+}
+
+.ico_file {
+  &:hover {
+    border: 1px solid var(--magenta);
+    border-radius: 100%;
+  }
 }
 
 .project3_header {
@@ -33,7 +44,7 @@ body {
 
 .project3_title {
   font-family: var(--Montserrat);
-  color: var(--Emerald);
+  color: var(--gray99);
   font-weight: 700;
   font-size: 5rem;
 }
@@ -68,7 +79,7 @@ body {
 }
 
 .project3_main {
-  display: flex;
+  display: block;
   align-items: center;
   margin-left: 5vw;
   margin-top: 5vw;
@@ -78,12 +89,14 @@ body {
 }
 
 .project3_depth {
-  margin-left: 2vw;
+  display: flex;
+  justify-content: center;
 }
 
 .depth_title {
+  margin-top: 5vh;
   font-family: var(--Montserrat);
-  color: var(--magenta);
+  color: var(--yellow);
   font-weight: 800;
   font-size: 45px;
 }
@@ -93,6 +106,7 @@ body {
   color: #777;
   font-size: 13px;
   margin-top: 4vh;
+  margin-left: 5vw;
 }
 
 .ico_down {
@@ -147,4 +161,20 @@ body {
 
 .page2_last {
   margin-bottom: 5vh;
+}
+
+.youtube {
+  margin-left: 6vw;
+  text-decoration: underline;
+  font-family: var(--Montserrat);
+  color: red;
+}
+
+.img_wrap {
+  display: flex;
+  justify-content: center;
+  > img {
+    width: 20vw;
+    height: 20vw;
+  }
 }
